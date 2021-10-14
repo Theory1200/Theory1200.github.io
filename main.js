@@ -3,10 +3,10 @@ window.onload = () => {
     navbar.innerHTML = `
     <ul>
         <img src="logo.png" alt="PlaceHolder for Logo" />
-        <li>link1</li>
-        <li>link2</li>
-        <li>link3</li>
-        <li>link4</li>
+        <a href="https://theory1200.github.io/home"><li>Home</li></a>
+        <a href="https://theory1200.github.io/about"><li>About</li></a>
+        <a href="https://theory1200.github.io/features"><li>features</li></a>
+        <a href="https://theory1200.github.io/future"><li>Future Plans</li></a>
     </ul> `
 }
 
