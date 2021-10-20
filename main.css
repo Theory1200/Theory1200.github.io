@@ -13,4 +13,33 @@ body{
     background-color: #4c4177;
     background: linear-gradient(315deg,#4c4177 0%, #2a5470 74%);
     background-repeat: no-repeat;
+}   
+.item {
+    display: inline;
+    text-decoration: none;
+    color:white;
+    float:right;
+    margin-right:120px;
+    margin-top:8px;
+    font-weight:bold;
+    font-size:20px;
+}
+
+#NavBar {
+    height:50px;
+    background-color:grey;
+    margin-top:-17px;
+}
+#NavBar ul {
+    padding:0px;
+}
+
+.mid {
+    margin-top:50px;
+    text-align: center;
+}
+
+.logo {
+    width:100px;
+    height:50px;
 }
