@@ -5,85 +5,9 @@ html {
 }
 
 * , *:after, *:before {
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
 }
-
-body{
-    font-family: Georgia, serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.5;
-    font-weight: 400;
-    color: white;
-    background-color: #4c4177;
-    background: linear-gradient(315deg,#4c4177 0%, #2a5470 74%);
-    background-repeat: no-repeat;
-}  
-
-h1{
-    font-weight: 400;
-    letter-spacing: 1px;
-}
-
-.item {
-    display: inline;
-    text-decoration: none;
-    color:white;
-    float:right;
-    margin-right:120px;
-    margin-top:8px;
-    font-weight:bold;
-    font-size:20px;
-}
-
-#NavBar {
-    height:50px;
-    background-color:grey;
-    margin-top:-17px;
-}
-#NavBar ul {
-    padding:0px;
-}
-
-.mid {
-    margin-top:50px;
-    text-align: center;
-}
-
-.logo {
-    width:100px;
-    height:50px;
-}
-
-.container {
-    margin-top:100px;
-    gap: 100px;
-    display:flex;
-    justify-content: center;
-}
-.container div {
-    color:white;
-    transition: ease-in-out 0.3s;
-}
-.container div:hover {
-    transform: translateY(-8px);
-    transition: ease-in-out 0.2s;
-}
-.anch {
-    color:green;
-    text-decoration: none;
-    font-weight: bold;
-    background-color:white;
-    padding:14px;
-    border-radius: 20px;
-    transition: ease-in-out 0.2s;
-}
-.anch:hover {
-    background-color: lightgreen;
-    color:black;
-}
-
 .wrapper{
     background-color: #ffb703;
     width: 100%;
@@ -171,3 +95,79 @@ h1{
     opacity: 0;
     background-color: #aaa;
 }
+
+body{
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-weight: 400;
+    color: white;
+    background-color: #4c4177;
+    background: linear-gradient(315deg,#4c4177 0%, #2a5470 74%);
+    background-repeat: no-repeat;
+}  
+
+h1{
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.item {
+    display: inline;
+    text-decoration: none;
+    color:white;
+    float:right;
+    margin-right:120px;
+    margin-top:8px;
+    font-weight:bold;
+    font-size:20px;
+}
+
+#NavBar {
+    height:50px;
+    background-color:grey;
+    margin-top:-17px;
+}
+#NavBar ul {
+    padding:0px;
+}
+
+.mid {
+    margin-top:50px;
+    text-align: center;
+}
+
+.logo {
+    width:100px;
+    height:50px;
+}
+
+.container {
+    margin-top:100px;
+    gap: 100px;
+    display:flex;
+    justify-content: center;
+}
+.container div {
+    color:white;
+    transition: ease-in-out 0.3s;
+}
+.container div:hover {
+    transform: translateY(-8px);
+    transition: ease-in-out 0.2s;
+}
+.anch {
+    color:green;
+    text-decoration: none;
+    font-weight: bold;
+    background-color:white;
+    padding:14px;
+    border-radius: 20px;
+    transition: ease-in-out 0.2s;
+}
+.anch:hover {
+    background-color: lightgreen;
+    color:black;
+}
+
