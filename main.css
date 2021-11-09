@@ -168,3 +168,10 @@ h1{
     color:black;
 }
 
+.img {
+    position: absolute;
+    height: 400px;
+    width: auto;
+    left: 20px;
+    bottom: 300px;
+}
