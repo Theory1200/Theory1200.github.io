@@ -7,6 +7,7 @@ html {
 
 .wrapper{
     background-color: #4c4177;
+    background: linear-gradient(315deg,#4c4177 0%, #2a5470 74%);
     width: 100%;
     min-height: 100vh;
     height: 100%;
